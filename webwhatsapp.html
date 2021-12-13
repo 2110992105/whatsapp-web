@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhatsApp</title>
+
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 10vh;
+            /* background-image: url(background.png); */
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        
+        body header {
+            display: flex;
+        }
+        
+        body .body .top {
+            padding: 1.8% 0% 1.9% 11%;
+        }
+        
+        body .body .top header {
+            align-items: center;
+        }
+        
+        body .body .top header {
+            color: white;
+            font-family: monospace;
+            font-size: x-large;
+            font-weight: bold;
+        }
+        
+        body .body .bottom {
+            display: flex;
+            overflow: hidden;
+            margin-left: 17%;
+            padding: 2% 0 0 2%;
+            border-radius: 0.4%;
+            background-color: rgb(255, 255, 255);
+            width: 67%;
+            box-shadow: black -5px 5px 25px 0;
+            height: 850px;
+            justify-self: center;
+        }
+        
+        body .body .bottom .firstheading {
+            width: 550px;
+            margin: 0;
+        }
+        
+        body .body .bottom .firstheading .usewa {
+            font-size: 1.7em;
+            padding: 7% 0% 1.9% 6%;
+            font-weight: 100;
+            color: rgb(109, 108, 108);
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        
+        body .body .bottom .firstheading .instructions {
+            width: max-content;
+            font-size: large;
+            padding: 0% 0% 1.6% 3%;
+            font-weight: 200;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        
+        body .body .bottom .firstheading .instructions li {
+            color: rgb(22, 17, 17);
+            margin-top: 5%;
+            /* margin-bottom: 10%; */
+        }
+        
+        body .body .bottom .firstheading .instructions li strong {
+            color: rgba(0, 0, 0, 0.678);
+            font-weight: 600;
+        }
+        
+        body .body .bottom .firstheading .instructions li span i {
+            color: gray;
+            /* font-size: small; */
+            padding: 5 px;
+            font-weight: lighter;
+            background-color: rgba(196, 196, 196, 0.456);
+        }
+        
+        body .body .bottom .help {
+            padding: 8%;
+            /* margin-top: 2%; */
+        }
+        
+        body .body .bottom .help a {
+            color: rgb(88, 175, 88);
+            text-decoration: none;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: small;
+        }
+        
+        body .body .video {
+            display: block;
+            margin-top: 20%;
+        }
+        
+        body .body .bottom .scan {
+            display: inline;
+            text-align: center;
+        }
+        
+        body .body .bottom .scan img {
+            padding-top: 10%;
+            /* display: none; */
+        }
+        
+        body .body .bottom .scan .signedin {
+            color: rgb(109, 108, 108);
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-weight: lighter;
+            font-size: small;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- div for background colors -->
+    <div style="position: absolute; width: 100%; height: 222px; background-color: rgb(45, 192, 143); z-index: -1;"></div>
+    <div style="position: absolute; width: 100%; height: 1050px; background-color: rgba(0, 0, 0, 0.952); z-index: -2;"></div>
+
+    <!-- main content for the main -->
+    <div class="body">
+        <div class="top">
+            <header>
+                <img src="walogo.png" width="46px" style="border-radius: 50%;" alt="Whatsapp logo">
+                <caption>&ensp;WHATSAPP WEB</caption>
+            </header>
+        </div>
+        <div class="bottom" style="z-index: 100;">
+            <div class="firstheading">
+                <div class="usewa">
+                    <p style="margin-top: 0;">To use WhatsApp on your computer:</p>
+                </div>
+                <div class="instructions">
+                    <ol>
+                        <li>Open WhatsApp On Your Phone</li>
+                        <li>Tap <strong>Menu </strong> <span><i class="fas fa-ellipsis-v"></i></span> or <strong>Settings </strong><span><i class="fas fa-cog"></i></span> and Select <strong>Linked Devices</strong></li>
+                        <li>Point Your Phone On The Screen To Capture The Code</li>
+                    </ol>
+                </div>
+                <div class="help">
+                    <a href="https://faq.whatsapp.com/web/download-and-installation/how-to-log-in-or-out?lang=en">Need help to get started?</a>
+                </div>
+                <div class="video">
+                    <iframe width="560" height="314" src="https://www.youtube.com/embed/FFiQ569fu1E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+                </div>
+            </div>
+            <!-- scannable qrcode -->
+            <div class="scan">
+                <img src="qrcode.png" style="float: right;" alt="" width="300">
+                <div class="signedin">
+                    <input type="checkbox" name="signed" id="" checked>Keep me signed in
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
