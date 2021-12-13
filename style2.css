@@ -15,8 +15,16 @@
         margin-top: 8%;
     }
     body .notsupp {
-        display: block;
-    }
+            font-weight: lighter;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 100;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            font-size: large;
+            color: rgb(109, 108, 108);
+            display: block;
+        }
     body .body .bottom .firstheading,
     body .body .bottom .scan {
         display: none;
