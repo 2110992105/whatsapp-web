@@ -1,0 +1,23 @@
+@media only screen and (max-width: 450px) {
+    body .green {
+        height: 25vh;
+    }
+    body .black {
+        height: 100vh;
+    }
+    body .top header {
+        padding-top: 5%;
+        padding-left: 2%;
+    }
+    body .body .bottom {
+        height: 400px;
+        margin-top: 8%;
+    }
+    body .notsupp {
+        display: block;
+    }
+    body .body .bottom .firstheading,
+    body .body .bottom .scan {
+        display: none;
+    }
+}
