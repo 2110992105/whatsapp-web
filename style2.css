@@ -15,15 +15,7 @@
         width: 67%;
     }
     body .notsupp {
-    font-weight: lighter;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 100;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    font-size: large;
-    color: rgb(109, 108, 108);
-    display: block;
+        display: block;
     }
     body .body .bottom .firstheading,
     body .body .bottom .scan {
