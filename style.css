@@ -10,9 +10,9 @@ body {
     justify-content: center;
 }
 
-/* .black {
+.black {
     height: 1050px;
-} */
+}
 
 .green {
     height: 222px;
@@ -45,9 +45,10 @@ body .body .bottom {
     border-radius: 0.4%;
     background-color: rgb(255, 255, 255);
     width: 900px;
-    box-shadow: black -5px 5px 25px 0;
+    box-shadow: black -5px 3px 25px 0;
     height: 850px;
     justify-self: center;
+    align-self: center;
 }
 
 body .body .bottom .firstheading {
@@ -105,7 +106,7 @@ body .body .bottom .help a {
 
 body .body .video {
     display: block;
-    margin-top: 20%;
+    margin-top: 15%;
 }
 
 body .body .bottom .scan {
