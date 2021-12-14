@@ -1,5 +1,4 @@
-/* style sheet for small screen devices */
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 450px) {
     body .green {
         height: 25vh;
     }
@@ -13,18 +12,19 @@
     body .body .bottom {
         height: 400px;
         margin-top: 8%;
+        width: 67%;
     }
     body .notsupp {
-            font-weight: lighter;
-            font-family: 'Roboto', sans-serif;
-            font-weight: 100;
-            text-align: center;
-            align-items: center;
-            justify-content: center;
-            font-size: large;
-            color: rgb(109, 108, 108);
-            display: block;
-        }
+    font-weight: lighter;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    color: rgb(109, 108, 108);
+    display: block;
+    }
     body .body .bottom .firstheading,
     body .body .bottom .scan {
         display: none;
